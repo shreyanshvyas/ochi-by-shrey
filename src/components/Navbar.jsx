@@ -8,7 +8,6 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
-      console.log(currentScrollPos);
       setIsHidden(prevScrollPos <  currentScrollPos && currentScrollPos > 100);
       setPrevScrollPos(currentScrollPos);
     };
