@@ -17,7 +17,9 @@ function About() {
         <div className="invisible sign w-full h-full flex text-2xl items-center justify-center"><MdOutlineArrowOutward /></div>
         </div></button>
       </div>
-      <div className="w-1/2 h-[60vh] rounded-3xl bg-[#a2bb48]"> </div>
+      <div className="w-1/2 h-[60vh] rounded-3xl overflow-hidden bg-[#a2bb48]">
+         <img src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="user" />
+         </div>
       </div>
     </div>
   );

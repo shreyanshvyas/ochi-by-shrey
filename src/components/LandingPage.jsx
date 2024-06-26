@@ -11,7 +11,9 @@ function LandingPage() {
             <div className="masker">
                 <div className="w-fit flex items-end overflow-hidden">
                     {index === 1 && (
-                        <motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:1}} className="mr-[1vw] w-[8vw] rounded-md h-[5.7vw] relative -top-[1.1vw] bg-green-500"></motion.div>
+                        <motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:1}} className="mr-[1vw] w-[8vw] rounded-md h-[5.7vw] relative -top-[1.1vw] bg-green-500 overflow-hidden">
+                          <img src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="logo" />
+                        </motion.div>
                     )}
               <h1 className="pt-[2vw] -mb-[.6vw] uppercase text-[9vw] leading-[.6] tracking-loose font-bold font-['Founders_Grotesk_X_Condensed'] ">
                 {items}
